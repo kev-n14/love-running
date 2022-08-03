@@ -14,14 +14,15 @@ this is because of specifity
 
 body {
 
-    font-family: lato, sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
+
 /* heading and logo  */
 
-h1,h2{
-    
+h1,h2 {
+
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -29,8 +30,48 @@ h1,h2{
 
 }
 
-#logo{
-
+#logo {
     float: left;
     font-size: 280%;
+
+}
+/* navigation links */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75%;
+
+}
+
+#menu li {
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+#menu a {
+
+    text-decoration: none;
+    color: inherit;
+    /* takes the color form parent elemnt = body*/
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+/* hero image*/
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+
 }
