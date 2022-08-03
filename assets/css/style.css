@@ -73,6 +73,15 @@ h1,h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;/*Overflow : hidden can  also be used as an alternative to clear : both. heaing cleared*/
+    
+    position: relative;
+    /*The parent of both the cover-text overlay  and the image is the hero-outer section.   
+    So we need to specifically set its position  to relative so that the child containers  
+    can set their absolute position  relative to it*/
+}
+#cover-text, #cover-text h2 { /*We also need to specify the h2 in  the cover text to override the default setting.*/
+    color: #fff;
+
 }
 #hero-image{
     height: 600px;
@@ -91,6 +100,32 @@ h1,h2 {
     }
     to {
         transform: scale(1.1);
-
+        
     }
+}
+
+#cover-text{
+
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241,109,107, .7);
+    /*cover text at a fixed  position relative to its parent container
+    
+    The bottom will be 30px above the bottom of the hero  image. The right will be 150px in from the right  
+    of the image container*/
+    
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
 }
