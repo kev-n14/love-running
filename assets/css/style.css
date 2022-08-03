@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+*{
+
+margin:0;
+padding:0;
+border: none;
+/*
+asterisk wildcard to set default settings
+order matt start with the most general rules and get more specific
+this is because of specifity
+*/
+}
 body{
 
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: lato, sans-serif;
+    font-weight: 300;
 }
