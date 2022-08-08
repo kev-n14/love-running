@@ -294,3 +294,19 @@ footer{
         display:none;
     }
 }
+
+/* for medium scfeen sizes from 950px wide and down*/
+@media screen and (max-width:950px){
+/*So let's target our menu again. We want to push  our navigation items below and left of our logo  
+at this size screen.*/
+    #menu{
+        clear:left;
+        float: left;   
+        margin-left: 30px;/*We want some breathing space between the  navigation elements and the left edge of the screen, so we set margin-left to 30px.*/
+        margin-bottom: 20px;
+        line-height: 25px;
+        
+    }
+
+
+}
