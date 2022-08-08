@@ -244,3 +244,17 @@ footer{
     color: #3a3a3a;
      
 }
+/*  GALLERY*/
+#photos{
+    clear: both;/*We do this so that the photo section and  its contents display below the header.*/
+    line-height: 0;/* in order to  remove any horizontal gaps between the images.*/
+    column-count: 4;
+    column-gap: 0;
+
+
+
+}
+#photos > img{
+    width: 100%;
+
+}
