@@ -346,6 +346,10 @@ at this size screen.*/
 
         column-count: 3;
     }
+    #cover-text{
+        padding-left: 20px;
+        margin-left: 30px;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -354,4 +358,5 @@ at this size screen.*/
 
         column-count: 2;
     }
+   
 }
